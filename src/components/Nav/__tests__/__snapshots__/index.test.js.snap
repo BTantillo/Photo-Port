@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav component matches snapshot 1`] = `
+exports[`Nav component renders 1`] = `
 <DocumentFragment>
   <header
     class="flex-row px-1"

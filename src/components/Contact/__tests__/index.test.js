@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, cleanup  } from '@testing-library/react';
 import "@testing-library/jest-dom/extend-expect"
-import Contact from './Contact'
+import Contact from "./Contact"
 
 afterEach(cleanup)
 
@@ -13,7 +13,7 @@ describe('Contact components render', () => {
     it('renders', () => {
         const { asFragment } = render(<Contact />)
         expect(asFragment()).toHaveTextContent()
-      })
+      }) 
 })
 
 it('renders', () => {

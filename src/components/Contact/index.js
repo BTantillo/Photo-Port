@@ -1,8 +1,6 @@
 import React, { useState} from 'react';
 import { validateEmail } from '../../utils/helpers'
 
-
-
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
@@ -57,7 +55,7 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button data-testid="button" type="submit">Submit</button>
             </form>
         </section>
     )
